@@ -13,10 +13,8 @@
 // limitations under the License.
 
 use std::convert::From;
-use std::ops::{Add, Div, Mul, Neg, Sub};
-
-use super::Complex;
 use std::fmt::{self, Display, Formatter};
+use std::ops::{Add, Div, Mul, Neg, Sub};
 
 #[derive(PartialOrd, Debug, Copy, Clone)]
 pub struct Real(f64); // TODO: --//--
@@ -30,10 +28,6 @@ impl Real {
 
     pub fn zero() -> Real {
         Real::new(0)
-    }
-
-    pub fn as_complex(&self) -> Complex {
-        Complex::new(self.0, 0)
     }
 
     pub fn value(&self) -> f64 {

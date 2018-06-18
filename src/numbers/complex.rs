@@ -51,14 +51,6 @@ impl Complex {
     pub fn is_real(&self) -> bool {
         self.imag == Real::zero()
     }
-
-    pub fn as_real(&self) -> Result<Real, ()> {
-        if self.is_real() {
-            Ok(self.real)
-        } else {
-            Err(())
-        }
-    }
 }
 
 impl Display for Complex {

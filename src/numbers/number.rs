@@ -14,11 +14,12 @@
 
 use super::{Complex, Integer, Natural, Rational, Real};
 
+use std::cmp::{Ordering, PartialEq, PartialOrd};
 use std::fmt::{self, Display, Formatter};
-use std::ops::{Add, Div, Mul, Neg, Sub};
+use std::ops::{Add, Div, Mul, Neg, Sub, Rem};
 use std::str::FromStr;
 
-#[derive(Debug, PartialEq, Copy, Clone)]
+#[derive(Debug, Copy, Clone)]
 pub enum Number {
     Natural(Natural),
     Integer(Integer),
@@ -58,6 +59,20 @@ impl Display for Number {
             Number::Rational(val) => val.fmt(f),
             Number::Real(val) => val.fmt(f),
             Number::Complex(val) => val.fmt(f),
+        }
+    }
+}
+
+impl Rem for Number {
+    type Output = Number;
+
+    fn rem(self, other: Number) -> Number {
+        match (self, other) {
+            (Number::Natural(a), Number::Natural(b)) => Number::Natural(a % b),
+            (Number::Natural(a), Number::Integer(b)) => Number::Integer(a % b),
+            (Number::Integer(a), Number::Natural(b)) => Number::Integer(a % b),
+            (Number::Integer(a), Number::Integer(b)) => Number::Integer(a % b),
+            _ => unimplemented!()
         }
     }
 }
@@ -127,6 +142,48 @@ macro_rules! impl_ops_for_number {
 }
 
 impl_ops_for_number!{}
+
+impl PartialOrd for Number {
+    fn partial_cmp(&self, other: &Number) -> Option<Ordering> {
+        let self_ = match *self {
+            Number::Natural(nat) => nat.into(),
+            Number::Integer(int) => int.into(),
+            Number::Rational(rat) => rat.into(),
+            Number::Real(rea) => rea.into(),
+            Number::Complex(com) => com,
+        };
+        let other_ = match *other {
+            Number::Natural(nat) => nat.into(),
+            Number::Integer(int) => int.into(),
+            Number::Rational(rat) => rat.into(),
+            Number::Real(rea) => rea.into(),
+            Number::Complex(com) => com,
+        };
+
+        self_.partial_cmp(&other_)
+    }
+}
+
+impl PartialEq for Number {
+    fn eq(&self, other: &Number) -> bool {
+        let self_ = match *self {
+            Number::Natural(nat) => nat.into(),
+            Number::Integer(int) => int.into(),
+            Number::Rational(rat) => rat.into(),
+            Number::Real(rea) => rea.into(),
+            Number::Complex(com) => com,
+        };
+        let other_ = match *other {
+            Number::Natural(nat) => nat.into(),
+            Number::Integer(int) => int.into(),
+            Number::Rational(rat) => rat.into(),
+            Number::Real(rea) => rea.into(),
+            Number::Complex(com) => com,
+        };
+
+        self_.eq(&other_)
+    }
+}
 
 //macro_rules! product {
 //    ($first:tt) => { product! { @product $first; $first } };

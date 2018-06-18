@@ -8,54 +8,67 @@ mathematics and other computations
 ## SYNTAX
 
 ```
-line: function
-    | statement
+<line> ::= <function>
+         | <statement>
 
-function: fn name(args) -> (return types),* {
-    statement
-}
+<function> ::= FN <name> LPAREN [<argument> (COMMA <argument>)*] RPAREN BEGIN <statement> END
 
-type : number | bool ( | list ? )
+<name> ::= ID
+<argument> ::= ID
 
-number : natural | integer | rational | real | complex
-natural : > 0 -> utype
-integer :  -> itype
-rational : p / q -> (integer, integer)
-real : -> ftype
-complex : a + bi -> (real, real)
-
-bool: true | false
-
-( list: [head | tail] ? )
-
-args : (arg:type),*
-
-statement : expression
-          | conditional_statement
+<statement> ::= <expression>
+              | <conditional_statement>
           
-conditional_statement: if condition: statement (else: (statement | conditional_statement))? 
+<conditional_statement> ::= IF <compound_condition> BEGIN <statement> END ELSE BEGIN <statement> END 
 
-condition : bool
-          | expression (EQL | GT | LT | GTE | LTE | NEQ) expression
-          | condition ((AND|OR|XOR) condition)?
+<compound_condition> ::= <condition> ((OR | AND | XOR) <condition>)*
 
-expression : term ((PLUS | MINUS) term)*
+<condition> ::= <bool>
+              | LPAREN <compound_condition> RPAREN
+              | NOT <compound_condition>
+              | <simple_condition>
+          
+<bool> ::= TRUE | FALSE
+          
+<simple_condition> ::= <expression> (EQ | NE | LT | GT | LE | GE) <expression>
 
-term : factor ((MUL | DIV) factor)*
+<expression> ::= <term> ((PLUS | MINUS) <term>)*
 
-factor : PLUS factor
-       | MINUS factor
-       | INTEGER
-       | LPAREN expression RPAREN
-       | argument
+<term> ::= <factor> ((MUL | DIV) <factor>)*
 
-argument : ID
+<factor> ::= PLUS <factor>
+          | MINUS <factor>
+          | NUMBER
+          | LPAREN <expression> RPAREN
+          | <function call>
+          | <variable>
+
+<variable> ::= ID
+
+<function_call> ::= <name> LPAREN [<expression> (COMMA <expression>)* ] RPAREN
+
 ```
 
 ## EXAMPLES
 
 ```
-fn x_cos(x: float) -> float {
-    x * cos(x)
-}
+#>> fn x_cos(x: real) -> real {
+#/>     x * cos(x)
+#/> }
+#<# function x_cos: (real) -> real
+#>> x_cos(0.5)
+#<< 0.438791281
+#>> fn abs(x:real) -> real {
+#/>     if x < 0 {
+#/>         -x
+#/>     } else {
+#/>         x
+#/>     }
+#/> }
+#<< function abs: (real) -> real
+#>> abs(-3)
+#<< 3
+#>> abs(3)
+#<< 3
+#>>
 ```

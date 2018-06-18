@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568fbe97-3fb1-4f8a-a8cb-a57a9294b53a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/complex.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/cross_types.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/integer.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/macros.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/natural.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/number.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/rational.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/real.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/tests.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/traits.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/numbers/complex.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/numbers/complex.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/numbers/number.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/numbers/number.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/numbers/real.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/numbers/real.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/numbers/tests.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/numbers/tests.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spec.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spec.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.rs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,17 +21,95 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.rs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="529" column="47" selection-start-line="529" selection-start-column="47" selection-end-line="529" selection-end-column="47" />
+            <state relative-caret-position="644">
+              <caret line="973" column="5" selection-start-line="973" selection-start-column="5" selection-end-line="973" selection-end-column="5" />
               <folding>
-                <element signature="e#25060#25061#0" expanded="true" />
-                <element signature="e#25103#25104#0" expanded="true" />
-                <element signature="e#25129#25130#0" expanded="true" />
-                <element signature="e#25171#25172#0" expanded="true" />
+                <element signature="e#2825#2949#0" />
+                <element signature="e#3162#3238#0" />
+                <element signature="e#2996#3126#0" />
+                <element signature="e#3166#3383#0" />
+                <element signature="e#3720#7500#0" />
+                <element signature="e#3797#3982#0" />
+                <element signature="e#4193#4386#0" />
+                <element signature="e#4743#7196#0" />
+                <element signature="e#18685#18792#0" />
+                <element signature="e#18853#18962#0" />
+                <element signature="e#19028#19151#0" />
+                <element signature="e#19500#19852#0" />
+                <element signature="e#19273#19401#0" />
+                <element signature="e#20135#20382#0" />
+                <element signature="e#20423#22030#0" />
+                <element signature="e#22068#23268#0" />
+                <element signature="e#23307#23927#0" />
+                <element signature="e#23956#24524#0" />
+                <element signature="e#24563#25829#0" />
+                <element signature="e#25874#26695#0" />
+                <element signature="e#26733#27474#0" />
+                <element signature="e#27521#28230#0" />
+                <element signature="e#19861#19928#0" />
+                <element signature="e#19984#20742#0" />
+                <element signature="e#26920#27705#0" />
+                <element signature="e#28038#28039#0" expanded="true" />
+                <element signature="e#28072#28073#0" expanded="true" />
+                <element signature="e#28265#28266#0" expanded="true" />
+                <element signature="e#28309#28310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="number.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/numbers/number.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="natural.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/numbers/natural.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spec.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spec.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="283">
+                <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slice.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/liballoc/slice.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="329" column="11" selection-start-line="329" selection-start-column="11" selection-end-line="329" selection-end-column="11" />
+              <folding>
+                <element signature="e#9985#9986#0" expanded="true" />
+                <element signature="e#10032#10033#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +118,54 @@
       <file leaf-file-name="tests.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/numbers/tests.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="933" selection-start-line="933" selection-end-line="933" />
+            <state relative-caret-position="135">
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="370" column="73" selection-start-line="370" selection-start-column="73" selection-end-line="370" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="real.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/numbers/real.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traits.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/numbers/traits.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="complex.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/numbers/complex.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+              <folding>
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,50 +181,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Empty</find>
-      <find>name</find>
-      <find>printl</find>
-      <find>variant</find>
-      <find>let gcd</find>
-      <find>reverse</find>
-      <find>From</find>
-      <find>i64</find>
-      <find>numbers::Integer</find>
-      <find>Real::new(</find>
-      <find>),</find>
-      <find>))</find>
-      <find>as f64</find>
-      <find>doc_comment</find>
-      <find>+ oth</find>
-      <find>+ int</find>
-      <find>+</find>
-      <find>INTEGER</find>
-      <find>forward_</find>
-      <find>as u128</find>
-      <find>as</find>
-      <find>IDENT</find>
-      <find>test_un</find>
-      <find>None</find>
-      <find>interpret</find>
-      <find>//</find>
-      <find>::new(</find>
-      <find>::new().append_text</find>
-      <find>Node</find>
-      <find>NOT</find>
+      <find>vec![]</find>
+      <find>scope.in</find>
+      <find>return_ty</find>
+      <find>arg_</find>
+      <find>typename</find>
+      <find>if</find>
+      <find>&quot;if</find>
+      <find>self.va</find>
+      <find>self.val</find>
+      <find>is</find>
+      <find>statement(</find>
+      <find>expression(</find>
+      <find>term</find>
+      <find>factor</find>
+      <find>function_call</find>
+      <find>&gt;</find>
+      <find>line</find>
+      <find>function</find>
+      <find>statement</find>
+      <find>condition</find>
+      <find>argument</find>
+      <find>compound</find>
+      <find>FunctionCall</find>
+      <find>SEMI</find>
+      <find>COLO</find>
+      <find>COMMA</find>
+      <find>COLON</find>
+      <find>/</find>
+      <find>DIV</find>
+      <find>MOD</find>
     </findStrings>
     <replaceStrings>
-      <replace>I</replace>
-      <replace>Natural</replace>
-      <replace>Integer</replace>
-      <replace>)</replace>
-      <replace>.add(oth)</replace>
-      <replace>.add(nat)</replace>
-      <replace>.add(int)</replace>
       <replace>$op</replace>
       <replace>.into()</replace>
       <replace>//</replace>
       <replace>::new().append_text(</replace>
       <replace>::new_with_text</replace>
+      <replace>interpret(text)</replace>
+      <replace>parser.condition()</replace>
+      <replace>()</replace>
+      <replace>(vec![])</replace>
+      <replace>condition(vec![])</replace>
+      <replace>args: &amp;</replace>
+      <replace>args</replace>
+      <replace>&amp;Vec&lt;(String, String, Box&lt;Node&gt;)&gt;</replace>
+      <replace>&amp;vec!</replace>
+      <replace>args.clone()</replace>
+      <replace>vec!</replace>
+      <replace>vec![], BTreeMap::new()</replace>
+      <replace>scope.to_owned()</replace>
+      <replace>ref mut</replace>
+      <replace>ref mut scope</replace>
+      <replace>value_with_scope(scope.clone)</replace>
+      <replace>clone()</replace>
+      <replace>&lt;function&gt;</replace>
+      <replace>Line</replace>
+      <replace>Function</replace>
+      <replace>Statement</replace>
+      <replace>Condition</replace>
+      <replace>Argument</replace>
+      <replace>Expression</replace>
+      <replace>Compound</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -122,7 +257,6 @@
         <option value="$PROJECT_DIR$/src/numbers.rs" />
         <option value="$PROJECT_DIR$/src/types/mod.rs" />
         <option value="$PROJECT_DIR$/src/types/bool.rs" />
-        <option value="$PROJECT_DIR$/src/spec.md" />
         <option value="$PROJECT_DIR$/src/numbers/macro.rs" />
         <option value="$PROJECT_DIR$/src/macros.rs" />
         <option value="$PROJECT_DIR$/src/utils.rs" />
@@ -135,14 +269,16 @@
         <option value="$PROJECT_DIR$/src/lib.rs" />
         <option value="$PROJECT_DIR$/Cargo.toml" />
         <option value="$PROJECT_DIR$/src/numbers/rational.rs" />
-        <option value="$PROJECT_DIR$/src/numbers/complex.rs" />
-        <option value="$PROJECT_DIR$/src/numbers/real.rs" />
         <option value="$PROJECT_DIR$/src/numbers/macros.rs" />
         <option value="$PROJECT_DIR$/src/numbers/natural.rs" />
         <option value="$PROJECT_DIR$/src/numbers/integer.rs" />
+        <option value="$PROJECT_DIR$/src/macro_spec.rs" />
+        <option value="$PROJECT_DIR$/src/numbers/tests.rs" />
+        <option value="$PROJECT_DIR$/src/numbers/real.rs" />
+        <option value="$PROJECT_DIR$/src/numbers/complex.rs" />
+        <option value="$PROJECT_DIR$/src/spec.md" />
         <option value="$PROJECT_DIR$/src/tests.rs" />
         <option value="$PROJECT_DIR$/src/numbers/number.rs" />
-        <option value="$PROJECT_DIR$/src/numbers/tests.rs" />
         <option value="$PROJECT_DIR$/src/main.rs" />
       </list>
     </option>
@@ -169,7 +305,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,10 +328,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -350,15 +487,17 @@
       <workItem from="1527663519410" duration="21875000" />
       <workItem from="1527854187911" duration="21874000" />
       <workItem from="1528705068157" duration="1146000" />
-      <workItem from="1528831119011" duration="30385000" />
+      <workItem from="1528831119011" duration="31375000" />
+      <workItem from="1529160124828" duration="32170000" />
+      <workItem from="1529262955573" duration="22202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256858000" />
+    <option name="totallyTimeSpent" value="312220000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="958" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="959" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -367,7 +506,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3280543" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32768363" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32918552" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
       <window_info id="Designer" order="2" />
@@ -384,7 +523,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32842582" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32768363" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -431,48 +570,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/liballoc/raw_vec.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/option.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number.rs" />
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/ops/function.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/liballoc/btree/map.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/fmt/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="744" column="10" selection-start-line="744" selection-start-column="10" selection-end-line="744" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/numbers.rs" />
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/cmp.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5934">
-          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/types/bool.rs" />
     <entry file="file://$PROJECT_DIR$/src/types/mod.rs" />
     <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/num/mod.rs">
@@ -510,23 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/macros.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6765">
-          <caret line="451" column="17" selection-start-line="451" selection-start-column="17" selection-end-line="451" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spec.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/macros.rs" />
     <entry file="file://$USER_HOME$/exonum-services-docker/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
@@ -538,30 +619,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/io/stdio.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="273" column="11" selection-start-line="273" selection-start-column="11" selection-end-line="273" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.rs" />
     <entry file="file://$PROJECT_DIR$/interpreter.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/cross_types.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="112" column="57" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/traits.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd_unicode/u_str.rs">
       <provider selected="true" editor-type-id="text-editor">
@@ -598,24 +658,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bool/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bool/bool.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bool/mod.rs" />
+    <entry file="file://$PROJECT_DIR$/src/bool/bool.rs" />
     <entry file="file://$PROJECT_DIR$/Cargo.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -630,10 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,16 +691,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interpreter/src/main.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#10#11#0" expanded="true" />
-            <element signature="e#43#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/interpreter/src/main.rs" />
     <entry file="file://$PROJECT_DIR$/Cargo.toml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -678,56 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/real.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-          <folding>
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/numbers/rational.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="144" column="24" lean-forward="true" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/complex.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <folding>
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2262#2263#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,10 +723,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/numbers/integer.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/cmp.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="603" column="10" selection-start-line="603" selection-start-column="10" selection-end-line="603" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/interpreter/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="581" selection-start-line="581" selection-end-line="581" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/io/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1543" column="7" selection-start-line="1543" selection-start-column="7" selection-end-line="1543" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/io/stdio.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="274" column="23" lean-forward="true" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/macro_spec.rs" />
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/macros.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/option.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5985">
+          <caret line="401" column="11" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/io/error.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numbers/cross_types.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numbers/real.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numbers/complex.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding>
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numbers/traits.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/liballoc/slice.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="329" column="11" selection-start-line="329" selection-start-column="11" selection-end-line="329" selection-end-column="11" />
+          <folding>
+            <element signature="e#9985#9986#0" expanded="true" />
+            <element signature="e#10032#10033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spec.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="283">
+            <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numbers/tests.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="370" column="73" selection-start-line="370" selection-start-column="73" selection-end-line="370" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/numbers/natural.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        <state relative-caret-position="390">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="e#1024#1025#0" expanded="true" />
             <element signature="e#1049#1050#0" expanded="true" />
@@ -755,55 +870,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/integer.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
-          <folding>
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/numbers/number.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/tests.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="933" selection-start-line="933" selection-end-line="933" />
+        <state relative-caret-position="164">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="529" column="47" selection-start-line="529" selection-start-column="47" selection-end-line="529" selection-end-column="47" />
+        <state relative-caret-position="644">
+          <caret line="973" column="5" selection-start-line="973" selection-start-column="5" selection-end-line="973" selection-end-column="5" />
           <folding>
-            <element signature="e#25060#25061#0" expanded="true" />
-            <element signature="e#25103#25104#0" expanded="true" />
-            <element signature="e#25129#25130#0" expanded="true" />
-            <element signature="e#25171#25172#0" expanded="true" />
+            <element signature="e#2825#2949#0" />
+            <element signature="e#3162#3238#0" />
+            <element signature="e#2996#3126#0" />
+            <element signature="e#3166#3383#0" />
+            <element signature="e#3720#7500#0" />
+            <element signature="e#3797#3982#0" />
+            <element signature="e#4193#4386#0" />
+            <element signature="e#4743#7196#0" />
+            <element signature="e#18685#18792#0" />
+            <element signature="e#18853#18962#0" />
+            <element signature="e#19028#19151#0" />
+            <element signature="e#19500#19852#0" />
+            <element signature="e#19273#19401#0" />
+            <element signature="e#20135#20382#0" />
+            <element signature="e#20423#22030#0" />
+            <element signature="e#22068#23268#0" />
+            <element signature="e#23307#23927#0" />
+            <element signature="e#23956#24524#0" />
+            <element signature="e#24563#25829#0" />
+            <element signature="e#25874#26695#0" />
+            <element signature="e#26733#27474#0" />
+            <element signature="e#27521#28230#0" />
+            <element signature="e#19861#19928#0" />
+            <element signature="e#19984#20742#0" />
+            <element signature="e#26920#27705#0" />
+            <element signature="e#28038#28039#0" expanded="true" />
+            <element signature="e#28072#28073#0" expanded="true" />
+            <element signature="e#28265#28266#0" expanded="true" />
+            <element signature="e#28309#28310#0" expanded="true" />
           </folding>
         </state>
       </provider>

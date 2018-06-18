@@ -219,11 +219,6 @@ fn test_real() {
         assert_eq!(m, real!(-2.5));
     }
 
-    fn check_as_complex() {
-        let a = real!(3);
-        assert_eq!(a.as_complex(), complex!(3));
-    }
-
     fn check_sqrt() {
         use super::Complex;
         use super::Sqrt;
@@ -252,7 +247,6 @@ fn test_real() {
 
     check_macro();
     check_ops();
-    check_as_complex();
     check_sqrt();
     check_format();
 }
@@ -309,13 +303,6 @@ fn test_complex() {
         assert_eq!(a, complex!(0.12 - 0.16.i));
     }
 
-    fn check_as_real() {
-        let a = complex!(3 + 2.i);
-        let b = complex!(3);
-        assert_eq!(a.as_real(), Err(()));
-        assert_eq!(b.as_real(), Ok(real!(3)));
-    }
-
     fn check_format() {
         let a = complex!(2 + 3.i);
 
@@ -327,7 +314,6 @@ fn test_complex() {
     check_inv();
     check_conj();
     check_i2();
-    check_as_real();
     check_format();
 }
 
@@ -930,6 +916,4 @@ fn test_default() {
 }
 
 #[test]
-fn test_if() {
-
-}
+fn test_if() {}
