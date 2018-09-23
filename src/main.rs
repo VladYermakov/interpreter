@@ -469,6 +469,7 @@ enum Node {
     Variable {
         name: String,
     },
+    Empty,
 }
 
 impl Node {
@@ -483,6 +484,7 @@ impl Node {
             Function { .. } => "FUNCTION".to_string(),
             Statement { .. } => "STATEMENT".to_string(),
             Variable { .. } => "VARIABLE".to_string(),
+            Empty => "EMPTY".to_string(),
         }
     }
 
@@ -511,6 +513,7 @@ impl Node {
                 "< ".to_owned(),
                 format!("{}", self.is_true(BTreeMap::new()).unwrap()),
             ),
+            Empty => unreachable!()
         }
     }
 
@@ -567,6 +570,7 @@ impl Node {
                 value.is_true(parent_scope.clone())
             }
             FunctionCall { body, scope, .. } => body.is_true(scope.clone()),
+            Empty => unreachable!()
         }
     }
 
@@ -616,6 +620,7 @@ impl Node {
                 value.value(parent_scope.clone())
             }
             FunctionCall { body, scope, .. } => body.value(scope.clone()),
+            Empty => unreachable!()
         }
     }
 }
@@ -726,6 +731,14 @@ impl Parser {
             self.eat("RPAREN");
         }
 
+        let function = Node::Function {
+            name: name.clone(),
+            arguments: args.clone(),
+            body: Box::new(Node::Empty),
+        };
+
+        self.functions.insert(name.clone(), function.clone());
+
         self.wait();
         self.eat("BEGIN");
 
@@ -740,7 +753,8 @@ impl Parser {
             arguments: args.clone(),
             body,
         };
-        self.functions.insert(name, function.clone());
+
+        self.functions.insert(name.clone(), function.clone());
         function
     }
 
@@ -1103,41 +1117,3 @@ fn main() -> std::io::Result<()> {
 
     Ok(())
 }
-
-// 2
-// 2 // 3
-// 2 + 3i
-
-// `1 + 2 + 3 + 4 + 5 + 6 + 7 + 8`
-// ```
-//                 +
-//                / \
-//               +   8
-//              / \
-//             +   7
-//            / \
-//           +   6
-//          / \
-//         +   5
-//        / \
-//       +   4
-//      / \
-//     +   3
-//    / \
-//   1   2
-// ```
-// `((1 + 2) + (3 + 4)) + ((5 + 6) + (7 + 8))`
-// ```
-//                +
-//               / \
-//              /   \
-//             /     \
-//            /       \
-//           /         \
-//          +           +
-//         / \         / \
-//        /   \       /   \
-//       +     +     +     +
-//      / \   / \   / \   / \
-//     1   2 3   4 5   6 7   8
-// ```

@@ -49,6 +49,25 @@ mathematics and other computations
 
 ```
 
+```bash
+$ ivb
+#>> fn max(a, b) {
+#/>     if a > b {
+#/>         a
+#/>     } else {
+#/>         b
+#/>     }
+#/> }
+#<# function max(2) 
+#>> max(1, 3)
+#<< 3
+#>> max(5, 2)
+#<< 5
+#>> max(3, max(2, 5))
+#<< 5
+
+```
+
 ## EXAMPLES
 
 ```
